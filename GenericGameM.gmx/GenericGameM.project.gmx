@@ -7,11 +7,24 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\sprite0</sprite>
+    <sprite>sprites\spr_basic_floor</sprite>
+    <sprite>sprites\spr_spike</sprite>
+    <sprite>sprites\spr_wall</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\smooth_lerp.gml</script>
+    <script>scripts\smooth_movement.gml</script>
+    <script>scripts\smooth_max_movement.gml</script>
+    <script>scripts\smooth_min_movement.gml</script>
+    <script>scripts\smooth_step.gml</script>
+  </scripts>
   <objects name="objects">
-    <object>objects\player</object>
+    <object>objects\object0</object>
+    <object>objects\obj_floor</object>
+    <object>objects\obj_wall</object>
+    <object>objects\obj_spike</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
