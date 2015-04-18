@@ -86,12 +86,12 @@ if jumping{
 }else if !place_empty(x,y+1){jump=0 gravity_speed=0}
 
 //battle: spike dmg
-if place_meeting(x,y,obj_spike){
+/*if place_meeting(x,y,obj_spike){
     lft=place_empty(x-1,y-1) rht=place_empty(x+1,y-1)
     if!lft&amp;&amp;rht hspeed=2 else if !rht&amp;&amp;lft hspeed=-2
     else if(instance_place(x,y,obj_spike).x+16&lt;x)hspeed=2 else hspeed=-2
     vspeed=-4 move_lock=true
-}
+}*/
 
 /*//move: gravity
 /*if place_empty(x,y+1) gravity=0.5 
